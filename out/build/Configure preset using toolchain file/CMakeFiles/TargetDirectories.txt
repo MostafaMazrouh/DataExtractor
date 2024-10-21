@@ -1,0 +1,3 @@
+/Volumes/Data/Projects/C++/DataExtractor/out/build/Configure preset using toolchain file/CMakeFiles/DataExtractor.dir
+/Volumes/Data/Projects/C++/DataExtractor/out/build/Configure preset using toolchain file/CMakeFiles/edit_cache.dir
+/Volumes/Data/Projects/C++/DataExtractor/out/build/Configure preset using toolchain file/CMakeFiles/rebuild_cache.dir

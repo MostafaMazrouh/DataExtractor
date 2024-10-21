@@ -1,0 +1,3 @@
+/Volumes/Data/Projects/C++/DataExtractor/build/CMakeFiles/DataExtractor.dir
+/Volumes/Data/Projects/C++/DataExtractor/build/CMakeFiles/edit_cache.dir
+/Volumes/Data/Projects/C++/DataExtractor/build/CMakeFiles/rebuild_cache.dir
