@@ -62,7 +62,6 @@ openssl rand -out iv.bin 16
 
 # 3. Encrypt a File Using OpenSSL (AES-256-CBC)
 You can encrypt a file (e.g., plaintext.txt) using the key and IV you generated. This creates an encrypted output file, encrypted_data.bin
-    
     <code>
     openssl enc -aes-256-cbc -in plaintext.txt -out encrypted_data.bin -K $(xxd -p -c32 key.bin) -iv $(xxd -p -c 16 iv.bin)
     </code> 
@@ -71,8 +70,11 @@ You can encrypt a file (e.g., plaintext.txt) using the key and IV you generated.
 # 4. Running the Program
 
 Once the project is built, navigate to the build directory and run the executable:
+    
     ```bash
     ./DataExtractor
+    ```
+
 
 You will be presented with the following menu options:
 
