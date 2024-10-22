@@ -66,10 +66,12 @@ std::vector<unsigned char> decryptData(const std::vector<unsigned char>& encrypt
 }
 
 void printMenu() {
+    std::cout << "\n ---------------------------";
     std::cout << "Select an option:\n";
     std::cout << "1. Decrypt \"encrypted_data.bin\" with \"key.bin\"\n";
     std::cout << "2. Obfuscate \"key.bin\" to \"obfuscated_key.bin\"\n";
     std::cout << "3. De-obfuscate \"obfuscated_key.bin\" and decrypt \"encrypted_data.bin\"\n";
+    std::cout << " ---------------------------\n";
 }
 
 int main() {
@@ -118,7 +120,7 @@ int main() {
             // Decrypt the data using the de-obfuscated key
             std::vector<unsigned char> decryptedData = decryptData(encryptedData, key, iv);
 
-            std::cout << "Decrypted Data: ";
+            std::cout << "\nDecrypted Data:\n";
             for (unsigned char c : decryptedData) {
                 std::cout << c;
             }
