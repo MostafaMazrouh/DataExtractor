@@ -55,11 +55,9 @@ Use OpenSSL to generate a 256-bit key and a 128-bit IV.
 
 # 2. Generate a 16-byte (128-bit) IV
 
-    ```bash
-
-    openssl rand -out iv.bin 16
-
-    ```
+   ```bash
+   openssl rand -out iv.bin 16
+   ```
 
 
 # 3. Encrypt a File Using OpenSSL (AES-256-CBC)
@@ -69,27 +67,11 @@ Use OpenSSL to generate a 256-bit key and a 128-bit IV.
    ```
 
 
-
-# 3. Encrypt a File Using OpenSSL (AES-256-CBC)
-
-You can encrypt a file (e.g., plaintext.txt) using the key and IV you generated. This creates an encrypted output file, encrypted_data.bin
-
-    ```bash
-
-    openssl enc -aes-256-cbc -in plaintext.txt -out encrypted_data.bin -K $(xxd -p -c32 key.bin) -iv $(xxd -p -c 16 iv.bin)
-
-    ```
-
-
 # 4. Running the Program
 
-Once the project is built, navigate to the build directory and run the executable:
-
-    ```bash
-
-    ./DataExtractor
-
-    ```
+   ```bash
+   ./DataExtractor
+   ```
 
 
 You will be presented with the following menu options:

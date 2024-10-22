@@ -66,12 +66,13 @@ std::vector<unsigned char> decryptData(const std::vector<unsigned char>& encrypt
 }
 
 void printMenu() {
-    std::cout << "\n ---------------------------";
+    std::cout << "\n";
     std::cout << "Select an option:\n";
     std::cout << "1. Decrypt \"encrypted_data.bin\" with \"key.bin\"\n";
     std::cout << "2. Obfuscate \"key.bin\" to \"obfuscated_key.bin\"\n";
     std::cout << "3. De-obfuscate \"obfuscated_key.bin\" and decrypt \"encrypted_data.bin\"\n";
     std::cout << " ---------------------------\n";
+    std::cout << "Your option: ";
 }
 
 int main() {
