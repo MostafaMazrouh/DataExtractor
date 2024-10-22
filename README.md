@@ -56,7 +56,9 @@ Use OpenSSL to generate a 256-bit key and a 128-bit IV.
 # 2. Generate a 16-byte (128-bit) IV
 
     ```bash
+
     openssl rand -out iv.bin 16
+    
     ```
 
 
@@ -65,7 +67,9 @@ Use OpenSSL to generate a 256-bit key and a 128-bit IV.
 You can encrypt a file (e.g., plaintext.txt) using the key and IV you generated. This creates an encrypted output file, encrypted_data.bin
 
     ```bash
+
     openssl enc -aes-256-cbc -in plaintext.txt -out encrypted_data.bin -K $(xxd -p -c32 key.bin) -iv $(xxd -p -c 16 iv.bin)
+
     ```
 
 
@@ -74,13 +78,9 @@ You can encrypt a file (e.g., plaintext.txt) using the key and IV you generated.
 Once the project is built, navigate to the build directory and run the executable:
 
     ```bash
-    ./DataExtractor
-    ```
 
-Once the project is built, navigate to the build directory and run the executable:
-    
-    ```bash
     ./DataExtractor
+
     ```
 
 
