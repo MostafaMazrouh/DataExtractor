@@ -60,13 +60,9 @@ Use OpenSSL to generate a 256-bit key and a 128-bit IV.
 
 3. # Encrypt a File Using OpenSSL (AES-256-CBC)
 You can encrypt a file (e.g., plaintext.txt) using the key and IV you generated. This creates an encrypted output file, encrypted_data.bin
-
-    ```bash
-    openssl enc -aes-256-cbc -in plaintext.txt -out encrypted_data.bin -K $(xxd -p -c32 key.bin) -iv $(xxd -p -c 16 iv.bin)
+    
     ```
-
-plaintext.txt: The file you want to encrypt.
-encrypted_data.bin: The encrypted output file.    
+    openssl enc -aes-256-cbc -in plaintext.txt -out encrypted_data.bin -K $(xxd -p -c32 key.bin) -iv $(xxd -p -c 16 iv.bin)   
 
 4. # Running the Program
 
