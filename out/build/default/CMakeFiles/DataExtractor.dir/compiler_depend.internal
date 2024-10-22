@@ -993,10 +993,8 @@ CMakeFiles/DataExtractor.dir/src/main.cpp.o
  /opt/homebrew/include/openssl/cryptoerr.h
  /opt/homebrew/include/openssl/cryptoerr_legacy.h
  /opt/homebrew/include/openssl/e_os2.h
- /opt/homebrew/include/openssl/err.h
  /opt/homebrew/include/openssl/evp.h
  /opt/homebrew/include/openssl/evperr.h
- /opt/homebrew/include/openssl/lhash.h
  /opt/homebrew/include/openssl/macros.h
  /opt/homebrew/include/openssl/obj_mac.h
  /opt/homebrew/include/openssl/objects.h
@@ -1004,6 +1002,8 @@ CMakeFiles/DataExtractor.dir/src/main.cpp.o
  /opt/homebrew/include/openssl/opensslconf.h
  /opt/homebrew/include/openssl/opensslv.h
  /opt/homebrew/include/openssl/params.h
+ /opt/homebrew/include/openssl/rand.h
+ /opt/homebrew/include/openssl/randerr.h
  /opt/homebrew/include/openssl/safestack.h
  /opt/homebrew/include/openssl/stack.h
  /opt/homebrew/include/openssl/symhacks.h
