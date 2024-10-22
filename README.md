@@ -50,12 +50,14 @@ Use OpenSSL to generate a 256-bit key and a 128-bit IV.
 
    ```bash
    openssl rand -out key.bin 32
+   ```
 
 
 # 2. Generate a 16-byte (128-bit) IV
 
-    ```bash
-    openssl rand -out iv.bin 16
+```bash
+openssl rand -out iv.bin 16
+```
 
 
 # 3. Encrypt a File Using OpenSSL (AES-256-CBC)
