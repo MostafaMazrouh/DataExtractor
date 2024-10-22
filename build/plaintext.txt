@@ -1,0 +1,11 @@
+Name: Adam Sam
+Email: adamsam@example.com
+Phone: +1234567890
+---
+Name: Jane Sam
+Email: janesam@example.com
+Phone: +0987654321
+---
+Name: John Sam
+Email: johnsam@example.com
+Phone: +0964654321
