@@ -10,6 +10,8 @@
 
 This project showcases basic cryptographic operations (AES-256-CBC encryption/decryption) and key obfuscation techniques, along with reverse engineering the obfuscated key to decrypt data.
 
+See how it works: https://youtu.be/hqEhchQYhes?si=jRsDpX9N5ux8R1tp
+
 ## Features
 
 - **AES-256-CBC decryption** using OpenSSL.
